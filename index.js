@@ -23,7 +23,7 @@ setInterval(askAreWeThereYet(), { alert }, 3000);
 
 function processSplicedValue (array, index, callback) {
     let removedValue = array.splice(index, 1)
-    callback(removedValue);
+    callback(removedValue[0]);
 }
 let strings = ['Tom', 'Bob', 'Joan', 'Jill'];
 
